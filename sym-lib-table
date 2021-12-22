@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name ESP32)(type Legacy)(uri /Users/Tristan/Downloads/ESP32/uTracer_board/External/symbols/esp32_devkit_v1_doit.lib)(options "")(descr ""))
-  (lib (name screen)(type Legacy)(uri /Users/Tristan/Downloads/ESP32/uTracer_board/External/SSD1306-128x64_OLED.lib)(options "")(descr ""))
+  (lib (name ESP32)(type Legacy)(uri ${KIPRJMOD}/External/symbols/esp32_devkit_v1_doit.lib)(options "")(descr ""))
+  (lib (name screen)(type Legacy)(uri ${KIPRJMOD}/External/SSD1306-128x64_OLED.lib)(options "")(descr ""))
+  (lib (name uTracer_board-rescue)(type Legacy)(uri ${KIPRJMOD}/uTracer_board-rescue.lib)(options "")(descr ""))
 )
